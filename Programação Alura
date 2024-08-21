@@ -1,1 +1,74 @@
-content://com.android.externalstorage.documents/tree/primary%3APrograma%C3%A7%C3%A3o/document/primary%3APrograma%C3%A7%C3%A3o%2FAlura.index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURAFLIX - ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            color: red;
+        }
+        iframe {
+            width: 320px;
+            height: 180px;
+        }
+        .question-box {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: red;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ALURAFLIX</h1>
+    </header>
+
+    <main>
+        <h2>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h2>
+        <p>#homem-aranha</p>
+
+        <iframe src="https://www.youtube.com/embed/gt_fAE1Eg2Q" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+        <div class="question-box">
+            <form>
+                <label for="opinion">Você acha que "Através do Aranhaverso" supera o primeiro filme? Diga por quê:</label>
+                <textarea id="opinion" name="opinion" rows="4" placeholder="Escreva sua opinião aqui..."></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
